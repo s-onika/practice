@@ -1,0 +1,16 @@
+>>> def calc():
+...     num = (int(input('Enter a number')))
+...     total = 0
+...     count = 0
+...     while True:
+...         total += num
+...         count +=1
+...         print ('number: ', num)
+...         print ('total: ', total)
+...         if num == 'done':
+...             print ('total: ', total)
+...             print ('count: ', count)
+...             print ('average: ', total/count)
+...             break
+...             
+>>> 
